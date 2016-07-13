@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="controller.js"></script>
+
+<head>
+  <title>League API tester</title>
+</head>
+
+<body>
+<div ng-app="myLeague" ng-controller="leagueCtrl">
+  <p> <input ng-model="user"> </p>
+  <button ng-click="submit(user)">Submit</button>
+  <p>{{username}}</p>
+
+    <p>{{username.user}}</p>
+    <td>{{username.user.name}} </td>
+    <td>{{username.user.profileIconId}} </td>
+    <td>{{username.user.summonerLevel}} </td>
+  </tr>
+
+</div>
+
+
+</body>
+
+
+
+
+
+</html>
